@@ -1,7 +1,9 @@
 <script lang="ts">
 	import { page } from '$app/stores';
+	import { PUBLIC_ENV } from '$env/static/public';
 
 	export let data;
+	console.log(PUBLIC_ENV);
 </script>
 
 <h1>Welcome to SvelteKit</h1>
